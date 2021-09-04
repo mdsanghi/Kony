@@ -23,7 +23,7 @@
 
     <include
         layout="@layout/content_main"
-         />
+        />
 
     <Button
         android:layout_width="wrap_content"
