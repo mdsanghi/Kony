@@ -1,0 +1,24 @@
+{
+    "AS_Button_bae0168fc6934c659b7499edb0e12ee6": {
+        "id": "AS_Button_bae0168fc6934c659b7499edb0e12ee6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c8bc541781f64701a922da3940c178fd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b27b1b70b8f348e49e4bc5bf86342d7f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//Invokes function 'initializeFFI'\ncom.mki.samplekonyffi.initializeFFI(\n\t\t/**Function*/ ffiCallback);\n\n\nfunction ffiCallback(data){\n  alert(data);\n  \n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
