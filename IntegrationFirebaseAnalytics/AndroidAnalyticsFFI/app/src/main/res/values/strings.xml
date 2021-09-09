@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SampleKonyFFI</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_to_android_analytics_test">Welcome to android analytics test!!!</string>
+</resources>
