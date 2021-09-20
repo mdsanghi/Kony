@@ -1,0 +1,17 @@
+{
+    "AS_Button_a53b715d1de14fa4b1d809b434c6c70f": {
+        "id": "AS_Button_a53b715d1de14fa4b1d809b434c6c70f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fcb0c37b3f3f4b11959ee5cedfd62b34",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n//Creates an object of class 'MainActivity'\nvar MainActivityObject = new firebaseAnalytics.MainActivity();\n//Invokes method 'analyticslogEvent' on the object\nMainActivityObject.analyticslogEvent(\"kony_add_favourite\",\n\t\t/**String*/ \"ADD_FAVOURITE_BILLER\", \n\t\t/**String*/ \"Biller added as favourite!!!\");",
+            "callbackType": null
+        }]
+    }
+}

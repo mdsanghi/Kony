@@ -1,0 +1,17 @@
+{
+    "AS_Button_eb0e61b662834990bb6142c210263c78": {
+        "id": "AS_Button_eb0e61b662834990bb6142c210263c78",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ff99633434f04d8dbe69d3d4525a2eb9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n//Creates an object of class 'MainActivity'\n//var MainActivityObject = new firebaseAnalytics.MainActivity();\n//Invokes method 'analyticslogEvent' on the object\nMainActivityObject.analyticslogEvent1(\"kony_delete_favourite\",\n\t\t/**String*/ \"DELETE_FAVOURTIE\", \n\t\t/**String*/ \"User deleted favourite!!!\");",
+            "callbackType": null
+        }]
+    }
+}

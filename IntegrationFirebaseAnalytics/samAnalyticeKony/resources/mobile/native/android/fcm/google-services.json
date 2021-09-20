@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675333021677",
+    "project_id": "dcpapp-8f0ab",
+    "storage_bucket": "dcpapp-8f0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675333021677:android:eb7dc164af02e99cba51e4",
+        "android_client_info": {
+          "package_name": "com.mki.AndroidAnalyticsFFI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675333021677-mekpvro16v6h05ei9q6oce53qpp941mq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIfRwbvGshHdTH_6qsO4BvxMZtP0L7OVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675333021677-mekpvro16v6h05ei9q6oce53qpp941mq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

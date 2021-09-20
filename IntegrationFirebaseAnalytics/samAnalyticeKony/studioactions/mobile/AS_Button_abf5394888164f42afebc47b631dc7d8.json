@@ -1,0 +1,17 @@
+{
+    "AS_Button_abf5394888164f42afebc47b631dc7d8": {
+        "id": "AS_Button_abf5394888164f42afebc47b631dc7d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b1189732a03740339a264b5720543f01",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// //Creates an object of class 'MainActivity'\n// var MainActivityObject = new firebaseAnalytics.MainActivity();\n// //Invokes method 'initializeFirebaseInstace' on the object\n// MainActivityObject.initializeFirebaseInstace();\n",
+            "callbackType": null
+        }]
+    }
+}

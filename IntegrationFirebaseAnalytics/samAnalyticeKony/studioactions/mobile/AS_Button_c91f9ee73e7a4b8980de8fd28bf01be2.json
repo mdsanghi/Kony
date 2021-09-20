@@ -1,0 +1,24 @@
+{
+    "AS_Button_c91f9ee73e7a4b8980de8fd28bf01be2": {
+        "id": "AS_Button_c91f9ee73e7a4b8980de8fd28bf01be2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b06b5c94ad7c4177897c77ffe6662f26"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h2d1967a061c4afeae0c11c7298c2ba3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n//Creates an object of class 'MainActivity'\nvar MainActivityObject = new firebaseAnalytics.MainActivity();\n//Invokes method 'analyticslogEvent' on the object\nMainActivityObject.analyticslogEvent(\n  \t\t\t\t\t\"kony_dashboard_click_from_kony\",\n\t\t/**String*/ \"ASNB_DASHBOARD\", \n\t\t/**String*/ \"User clicked on asnb dashboard!!!\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

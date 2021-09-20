@@ -1,2 +1,2 @@
-include ':app', ':konywidgets'
+include ':app', ':konywidgets1'
 rootProject.name='AndroidAnalyticsFFI'
